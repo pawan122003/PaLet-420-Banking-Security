@@ -1,0 +1,167 @@
+# PaLet-420 Banking Security - Python Dependencies
+# Enterprise-Grade Behavioral-Biometric-Driven Dynamic Data Obfuscation Platform
+
+# =============================================================================
+# CORE WEB FRAMEWORK & API
+# =============================================================================
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+
+# =============================================================================
+# MACHINE LEARNING & AI PIPELINE
+# =============================================================================
+# Deep Learning Frameworks
+tensorflow==2.15.0
+torch==2.1.1
+torchvision==0.16.1
+
+# Traditional ML & Data Processing
+scikit-learn==1.3.2
+numpy==1.24.3
+pandas==2.1.4
+scipy==1.11.4
+
+# Feature Engineering & Preprocessing
+nlp==0.4.0
+nltk==3.8.1
+
+# =============================================================================
+# BEHAVIORAL BIOMETRICS & ANALYTICS
+# =============================================================================
+# Keystroke Dynamics
+keystroke-dynamics==0.1.0
+# Mouse Pattern Analysis
+mouse-analytics==0.2.1
+# Behavioral Pattern Recognition
+behavioral-biometrics==0.3.0
+
+# =============================================================================
+# STREAMING & MESSAGE PROCESSING
+# =============================================================================
+# Apache Kafka Integration
+kafka-python==2.0.2
+aiokafka==0.9.0
+kafka-streams==0.1.4
+
+# Redis for Caching
+redis==5.0.1
+aioredis==2.0.1
+
+# =============================================================================
+# DATABASE & ORM
+# =============================================================================
+# PostgreSQL Database
+psycopg2-binary==2.9.9
+asyncpg==0.29.0
+
+# SQLAlchemy ORM
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# =============================================================================
+# SECURITY & AUTHENTICATION
+# =============================================================================
+# JWT & OAuth2
+PyJWT==2.8.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Encryption & Cryptography
+cryptography==41.0.7
+fernet==1.0.1
+format-preserving-encryption==0.3.0
+
+# Rate Limiting & Security
+slowapi==0.1.9
+python-multipart==0.0.6
+
+# =============================================================================
+# DATA OBFUSCATION & PRIVACY
+# =============================================================================
+# Custom Data Masking
+data-masking==0.2.0
+pii-detection==0.4.1
+# Differential Privacy
+differential-privacy==0.1.3
+
+# =============================================================================
+# MONITORING & OBSERVABILITY
+# =============================================================================
+# Prometheus Metrics
+prometheus-client==0.19.0
+prometheus-fastapi-instrumentator==6.1.0
+
+# Logging & Tracing
+structlog==23.2.0
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+opentelemetry-instrumentation-fastapi==0.42b0
+
+# =============================================================================
+# ASYNC & CONCURRENCY
+# =============================================================================
+aiofiles==23.2.1
+aiohttp==3.9.1
+aiohttp-cors==0.7.0
+celery==5.3.4
+
+# =============================================================================
+# CONFIGURATION & ENVIRONMENT
+# =============================================================================
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+click==8.1.7
+
+# =============================================================================
+# TESTING & DEVELOPMENT
+# =============================================================================
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+factory-boy==3.3.0
+httpx==0.25.2
+
+# Code Quality
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+
+# =============================================================================
+# JUPYTER & NOTEBOOKS (Research & Development)
+# =============================================================================
+jupyter==1.0.0
+jupyterlab==4.0.8
+notebook==7.0.6
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# =============================================================================
+# UTILITIES & HELPERS
+# =============================================================================
+requests==2.31.0
+validators==0.22.0
+rich==13.7.0
+typer==0.9.0
+python-dateutil==2.8.2
+
+# =============================================================================
+# ENTERPRISE FEATURES
+# =============================================================================
+# Enterprise Monitoring
+datadog==0.49.1
+# Compliance & Audit Logging
+audit-logger==0.2.0
+# Multi-tenancy Support
+multi-tenant==0.1.5
+
+# =============================================================================
+# DOCKER & DEPLOYMENT
+# =============================================================================
+# Health Checks
+healthcheck==1.3.3
+# Process Management
+supervisor==4.2.5
